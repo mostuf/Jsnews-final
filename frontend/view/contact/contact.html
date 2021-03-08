@@ -50,17 +50,18 @@
         <div class="form row">
             <div class="form-group col-12">
                 <label>E-mail</label>
-                <input type="email" name="mail" class="form-control" placeholder="jean.dupond@mail.fr">
+                <input type="email" name="mail" class="form-control" placeholder="jean.dupond@mail.fr" required>
             </div>
             <div class="form-group col-12">
                 <label>Votre message</label>
-                <textarea name="message" class="form-control" rows="5"></textarea>
+                <textarea name="message" class="form-control" rows="5" required minlength="5" maxlength="400"></textarea>
             </div>
             <div class="form-group col-12">
                 <input type="button" class="btn btn-primary col-12" value="envoyer">
             </div>
         </div>
     </div>
+    <script src="contact.js"></script>
 </body>
 
 </html>
